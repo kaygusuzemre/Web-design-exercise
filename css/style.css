@@ -1,0 +1,54 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: darkturquoise;
+  height: 112px;
+  line-height: 112px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+header nav {
+  float: right;
+}
+
+.logo img {
+  margin-top: 0px;
+}
+
+header nav ul li a {
+  padding-right: 0px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.img1 {
+  background-image: url(..//image/d3h7ofnt73621.png);
+  background-size: 100% 100%;
+}
+
+.slider,
+.slider ul,
+.slider ul li {
+  height: 710px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
